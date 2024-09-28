@@ -27,10 +27,10 @@ const Projects = () => {
               ))}
             </ul>
             <div className="flex flex-row justify-between space-x-2 md:space-x-4 pt-4">
-              <a className="hover:text-primary cursor-pointer" href={code}>
+              <a target="none" className="hover:text-primary cursor-pointer" href={code}>
                 <GitHubIcon />
               </a>
-              <a className="hover:text-primary cursor-pointer" href={preview}>
+              <a target="none" className="hover:text-primary cursor-pointer" href={preview}>
                 <OpenInNewIcon />
               </a>
             </div>
