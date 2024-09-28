@@ -32,6 +32,11 @@ To clone and run this project, follow these steps:
 
 You should now see the project running locally with Hot Module Replacement (HMR) enabled.
 
+## Changing SPA Information
+
+To update the information displayed in the Single Page Application (SPA), you can modify the `projects.jsx` file. This file contains the data and configuration for the entire SPA.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
