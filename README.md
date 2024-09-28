@@ -34,7 +34,7 @@ You should now see the project running locally with Hot Module Replacement (HMR)
 
 ## Changing SPA Information
 
-To update the information displayed in the Single Page Application (SPA), you can modify the `projects.jsx` file. This file contains the data and configuration for the entire SPA.
+To update the information displayed in the Single Page Application (SPA), you can modify the `portfolio.jsx` file. This file contains the data and configuration for the entire SPA.
 
 ## License
 
