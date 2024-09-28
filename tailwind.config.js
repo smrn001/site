@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -6,6 +7,7 @@ export default {
       colors: {
         bg: "#181818",
         primary: "#f2932c",
+        shadow : "#202020",
       },
     },
   },
