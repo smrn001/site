@@ -1,8 +1,37 @@
 # React + Vite
+This project provides a minimal setup to get React working in Vite with HMR and some ESLint rules. It serves as an open-source minimal portfolio.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Cloning and Running the Project
 
-Currently, two official plugins are available:
+To clone and run this project, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/smrn001/site.git
+    cd site
+    ```
+
+2. **Install dependencies:**
+
+    ```sh
+    npm install
+    ```
+
+3. **Run the development server:**
+
+    ```sh
+    npm run dev
+    ```
+
+4. **Open your browser and visit:**
+
+    ```sh
+    http://localhost:5173/
+    ```
+
+You should now see the project running locally with Hot Module Replacement (HMR) enabled.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
