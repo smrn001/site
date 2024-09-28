@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 export default function App() {
   return (
-    <div className="bg-[#181818] ">
+    <div className="dark:bg-[#181818] bg-white ">
       <Navbar></Navbar>
       <About></About>
       <Projects></Projects>

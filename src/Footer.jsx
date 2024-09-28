@@ -1,9 +1,15 @@
 import {creater} from "./portfolio"
 const Footer = () => {
   return (
-    <div className="flex items-center justify-center py-12">
-      <div className="text-md relative font-extrabold text-primary after:bg-primary after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-900 cursor-pointer">
-        Created By {creater}
+    <div className="flex items-center justify-center py-8 bg-transparent dark:bg-[#181818]">
+      <div className="text-lg font-bold text-gray-800 dark:text-gray-300 relative cursor-pointer group">
+        <span className="relative z-10 group-hover:text-primary transition duration-300">
+          Created By {creater}
+        </span>
+        <span
+          className="absolute bottom-0 left-0 w-full h-[2px] bg-primary transition-all duration-500 transform scale-x-0 group-hover:scale-x-100 origin-left"
+          aria-hidden="true"
+        ></span>
       </div>
     </div>
   );

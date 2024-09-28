@@ -12,10 +12,7 @@ const navlist = [
     name: "Contact",
     link: "#contacts",
   },
-  {
-    name: "Gallery",
-    link: "https://gallery.samirn.com.np/",
-  },
+ 
 ];
 const name = "Samir Niroula";
 const description =

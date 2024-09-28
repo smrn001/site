@@ -1,17 +1,22 @@
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center justify-center mb-24 " id="contacts">
-      <h1 className="text-3xl text-white font-bold flex items-center my-7 ">
+    <div
+      className="flex flex-col items-center justify-center mb-24"
+      id="contacts"
+    >
+      <h1 className="text-3xl md:text-3xl font-bold dark:text-gray-100 text-gray-900 mb-5">
         CONTACTS
       </h1>
+
+      {/* Email Button */}
       <button
         type="button"
-        className="border-2 text-primary border-primary p-3 min-w-32 text-center bg-transparent relative overflow-hidden hover:text-white transition-colors hover:z-[2] duration-300 group font-bold cursor-pointer"
+        className="relative border-2 border-primary text-primary font-semibold py-3 px-6 rounded-sm text-lg overflow-hidden group transition-all duration-300 ease-in-out hover:text-white dark:text-primary-dark dark:border-primary-dark"
       >
-        EMAIL
+        <span className="relative z-10">EMAIL</span>
         <span
+          className="absolute inset-0 bg-primary dark:bg-primary-dark z-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
           aria-hidden="true"
-          className="bg-primary absolute inset-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out z-[-1]"
         ></span>
       </button>
     </div>
