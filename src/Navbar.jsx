@@ -41,13 +41,14 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="absolute top-16 left-0 w-full bg-bg text-white flex flex-col items-center md:hidden">
           {navlist.map((item, index) => (
-            <p
+            <a
               key={index}
+              href={item.link}
               className="py-2 hover:text-primary cursor-pointer"
               onClick={() => setIsMenuOpen(false)}
             >
               {item.name}
-            </p>
+            </a>
           ))}
         </div>
       )}
