@@ -22,7 +22,7 @@ const description =
   "A tech enthusiast from Mechinagar-7, rocking BSc.CSIT, diving deep into technology, and making waves in the ever-evolving IT world.";
 
 const resume = "https://cv.samirn.com.np";
-const social = { Facebook: "", github: "", linkedin: "" };
+const social = { Facebook: "https://www.facebook.com/samirn.com.np/", github: "https://github.com/smrn001", linkedin: "https://www.linkedin.com/in/samirniroula/" };
 
 const projects = [
   {
