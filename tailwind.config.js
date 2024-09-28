@@ -11,6 +11,7 @@ export default {
         bg: "#181818",
         primary: "#f2932c",
         shadow : "#202020",
+        lightprimary: "#000080",
       },
     },
   },

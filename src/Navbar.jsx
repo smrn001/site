@@ -24,17 +24,17 @@ const Navbar = () => {
     <div className="flex flex-row justify-between px-6 py-4 md:px-20 md:py-8 lg:px-40 lg:py-12 bg-white dark:bg-[#181818] shadow-md">
       {/* Logo Section */}
       <div>
-        <div className="text-xl md:text-2xl relative font-extrabold text-primary dark:text-primary after:bg-primary after:absolute after:h-1 after:w-0 after:-bottom-2 md:after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-400 cursor-pointer">
+        <div className="text-xl md:text-2xl relative font-extrabold text-lightprimary dark:text-primary after:bg-lightprimary after:absolute after:h-1 after:w-0 after:-bottom-1 md:after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-400 cursor-pointer">
           {logo}
         </div>
       </div>
 
       {/* Desktop Navigation */}
-      <div className="hidden md:flex flex-row justify-between md:w-2/3 lg:w-1/3 text-gray-900 dark:text-gray-100 text-sm md:text-md font-semibold">
+      <div className="hidden md:flex flex-row justify-between md:w-2/3 lg:w-1/3 text-gray-900 dark:text-gray-100 text-sm md:text-md font-semibold items-center">
         {navlist.map((item, index) => (
           <button
             key={index}
-            className="hover:text-primary dark:hover:text-primary relative after:bg-primary after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer active:scale-95 transition transform duration-1000"
+            className="hover:text-lightprimary dark:hover:text-primary relative after:bg-lightprimary after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer active:scale-95 transition transform duration-1000"
             onClick={() => scrollToSection(item.link)}
           >
             {item.name}

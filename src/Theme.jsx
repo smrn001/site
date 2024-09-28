@@ -32,7 +32,7 @@ const Theme = () => {
         <button
           type="button"
           onClick={toggleTheme}
-          className="hover:text-primary dark:hover:text-primary text-black relative dark:text-white after:bg-primary after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer active:scale-95 transition transform duration-300"
+          className="hover:text-lightprimary dark:hover:text-primary text-black relative dark:text-white after:bg-lightprimary after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer active:scale-95 transition transform duration-300"
           >
           <LightModeIcon />
         </button>
@@ -40,7 +40,7 @@ const Theme = () => {
         <button
           type="button"
           onClick={toggleTheme}
-          className="hover:text-primary dark:hover:text-primary text-black relative dark:text-white after:bg-primary after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer active:scale-95 transition transform duration-300"
+          className="hover:text-lightprimary dark:hover:text-primary text-black relative dark:text-white dark:after:bg-primary after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer active:scale-95 transition transform duration-300"
         >
           <DarkModeIcon />
         </button>

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-center justify-center mb-24">
       <h1 className="md:text-6xl text-5xl dark:text-gray-100 text-gray-900 font-extrabold mt-10 mb-5 font-[poppins] mx-5">
-        Hi, I am <span className="text-primary">{name}</span>
+        Hi, I am <span className="text-lightprimary dark:text-primary">{name}</span>
       </h1>
       <div className="dark:text-gray-100 text-gray-900 text-justify text-xl pb-3 mb-1 mx-7 flex flex-col max-w-xl">
         {description}
@@ -16,14 +16,14 @@ const About = () => {
         {/* Resume Button */}
         <button
           type="button"
-          className="border-2 text-primary border-primary p-3 min-w-32 text-center bg-transparent relative overflow-hidden hover:text-white transition-colors hover:z-[2] duration-300 group font-bold cursor-pointer"
+          className="border-2 text-lightprimary dark:text-primary dark:border-primary border-lightprimary p-3 min-w-32 text-center bg-transparent relative overflow-hidden hover:text-white dark:hover:text-white transition-colors hover:z-[2] duration-300 group font-bold cursor-pointer"
         >
           <a target="none" href={resume}>
             Resume
           </a>
           <span
             aria-hidden="true"
-            className="bg-primary absolute inset-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out z-[-1]"
+            className="bg-lightprimary dark:bg-primary absolute inset-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out z-[-1]"
           ></span>
         </button>
 
@@ -32,21 +32,21 @@ const About = () => {
           <a
             target="none"
             href={social.github}
-            className="hover:text-primary relative after:bg-primary dark:text-gray-100 text-gray-900 after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
+            className="hover:text-lightprimary dark:hover:text-primary relative dark:after:bg-primary after:bg-lightprimary dark:text-gray-100 text-gray-900 after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
           >
             <GitHubIcon />
           </a>
           <a
             target="none"
             href={social.linkedin}
-            className="hover:text-primary relative after:bg-primary dark:text-gray-100 text-gray-900 after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
+            className="hover:text-lightprimary dark:hover:text-primary relative dark:after:bg-primary after:bg-lightprimary dark:text-gray-100 text-gray-900 after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
           >
             <LinkedInIcon />
           </a>
           <a
             target="none"
             href={social.Facebook}
-            className="hover:text-primary relative after:bg-primary dark:text-gray-100 text-gray-900 after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
+            className="hover:text-lightprimary dark:hover:text-primary relative dark:after:bg-primary after:bg-lightprimary dark:text-gray-100 text-gray-900 after:absolute after:h-1 after:w-0 after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer"
           >
             <FacebookIcon />
           </a>

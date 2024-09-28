@@ -11,11 +11,11 @@ const Contact = () => {
       {/* Email Button */}
       <button
         type="button"
-        className="relative border-2 border-primary text-primary font-semibold py-3 px-6 rounded-sm text-lg overflow-hidden group transition-all duration-300 ease-in-out hover:text-white dark:text-primary-dark dark:border-primary-dark"
+        className="relative border-2 dark:border-primary border-lightprimary text-lightprimary dark:text-primary font-semibold py-3 px-6 rounded-sm text-lg overflow-hidden group transition-all duration-300 ease-in-out hover:text-white dark:text-primary-dark dark:border-primary-dark"
       >
         <span className="relative z-10">EMAIL</span>
         <span
-          className="absolute inset-0 bg-primary dark:bg-primary-dark z-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+          className="absolute inset-0 dark:bg-primary bg-lightprimary dark:bg-primary-dark z-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
           aria-hidden="true"
         ></span>
       </button>
