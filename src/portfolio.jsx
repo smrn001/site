@@ -35,7 +35,7 @@ const projects = [
   {
     name: "JYNX website",
     description: "A website for JYNX digital marketing Agency",
-    tech: ["React", "Tailwind CSS"],
+    tech: ["React", "Tailwind"],
     code: "#",
     preview: "https://jynx.netlify.app/",
   },
