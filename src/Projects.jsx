@@ -15,7 +15,7 @@ const Projects = () => {
         {projects.map(({ name, description, tech, code, preview }) => (
           <div
             key={name}
-            className="flex flex-col items-center border dark:border-darkborder border-lightborder rounded-xl p-4 py-6 shadow-md hover:shadow-2xl dark:hover:shadow-darkshadow hover:shadow-lightshadow group min-h-40 bg-transparent dark:shadow-darkshadow shadow-lightshadow hover:-translate-y-1 transition duration-300"
+            className="flex flex-col items-center border dark:border-darkborder dark:hover:border-darkborderhover  border-lightborder rounded-xl p-4 py-6 shadow-md hover:shadow-2xl dark:hover:shadow-darkshadow hover:shadow-lightshadow group min-h-40 bg-transparent dark:shadow-darkshadow shadow-lightshadow hover:-translate-y-1 transition duration-300"
           >
             {/* Project Name */}
             <p className="text-lg md:text-xl font-extrabold  dark:text-gray-100 text-gray-900">
