@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex flex-row justify-between px-6 py-4 md:px-20 md:py-8 lg:px-40 lg:py-12 bg-white dark:bg-[#181818] shadow-md">
+    <div className="flex flex-row justify-between px-6 py-6 md:px-20 md:py-8 lg:px-32 lg:py-8 bg-white dark:bg-[#181818] shadow-md dark:shadow-[#212121]">
       {/* Logo Section */}
       <div>
         <div className="text-xl md:text-2xl relative font-extrabold text-lightprimary dark:text-primary dark:after:bg-primary after:bg-lightprimary after:absolute after:h-1 after:w-0 after:-bottom-1 md:after:-bottom-3 after:left-0 hover:after:w-full after:transition-all after:duration-400 cursor-pointer">
@@ -56,7 +56,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white dark:bg-[#1f1f1f] text-gray-900 dark:text-gray-100 flex flex-col items-center md:hidden">
+        <div className="absolute top-16 left-0 w-full bg-white dark:bg-transparent text-gray-900 dark:text-gray-100 flex flex-col items-center md:hidden">
           {navlist.map((item, index) => (
             <button
               key={index}

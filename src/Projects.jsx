@@ -5,7 +5,7 @@ import { projects } from "./portfolio";
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center my-10 px-4 md:px-0 mb-24"
+      className="flex flex-col items-center my-10 px-4 md:px-0 mb-10"
       id="projects"
     >
       <h1 className="dark:text-darktext text-lighttext text-3xl md:text-4xl font-extrabold pt-10 pb-6">

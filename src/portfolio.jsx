@@ -12,7 +12,6 @@ const navlist = [
     name: "Contact",
     link: "#contacts",
   },
- 
 ];
 const name = "Samir Niroula";
 const description =
@@ -33,6 +32,14 @@ const projects = [
     code: "https://github.com/smrn001/noteSharing",
     preview: "https://csitn.netlify.app",
   },
+
+  {
+    name: "Web-IDE",
+    description: "A web IDE to edit and run code on the web ",
+    tech: [ "Tailwind", "JavaScript", "monaco"],
+    code: "https://github.com/smrn001/code",
+    preview: "https://code.samirn.com.np/",
+  },
   {
     name: "JYNX website",
     description: "A website for JYNX digital marketing Agency",
@@ -41,13 +48,6 @@ const projects = [
     preview: "https://jynx.netlify.app/",
   },
 
-  {
-    name: "WebIDE",
-    description: "A web IDE for HTML CSS and JS",
-    tech: ["HTML", "CSS", "JavaScript"],
-    code: "https://github.com/smrn001/webIDE",
-    preview: "https://smrn001.github.io/webIDE/",
-  },
   {
     name: "Gallery ",
     description: " Personal photographs colleection",
@@ -73,7 +73,7 @@ const projects = [
 
 const creater = "Samir Niroula";
 
-const skills = ["React", "Tailwind", "Git"];
+const skills = ["NextJs", "React", "Tailwind"];
 export {
   logo,
   navlist,

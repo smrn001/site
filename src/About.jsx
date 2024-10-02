@@ -5,11 +5,12 @@ import { name, description, resume, social } from "./portfolio";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center mb-24">
-      <h1 className="md:text-6xl text-5xl dark:text-darktext  text-text font-extrabold mt-10 mb-5 font-[poppins] mx-5">
-        Hi, I am <span className="text-lightprimary dark:text-primary">{name}</span>
+    <div className="flex flex-col items-center justify-center mt-20 sm:mt-2 mb-24 ">
+      <h1 className="md:text-6xl text-5xl dark:text-darktext  text-text font-extrabold mt-10 mb-5 font-[poppins] mx-5  ">
+        Hi, I am{" "}
+        <span className="text-lightprimary dark:text-primary">{name}</span>
       </h1>
-      <div className="dark:text-gray-100 text-gray-900 text-justify text-xl pb-3 mb-1 mx-5 flex flex-col max-w-xl">
+      <div className="dark:text-gray-100 text-gray-900 text-justify text-xl pb-3 mb-1 mx-5 flex flex-col  max-w-xl">
         {description}
       </div>
       <div className="flex md:flex-row flex-col justify-between text-lighttext space-x-3 items-center content-center">
@@ -28,7 +29,7 @@ const About = () => {
         </button>
 
         {/* Social Media Links */}
-        <div className="flex flex-row space-x-4 py-3">
+        <div className=" flex-row space-x-4 py-3 hidden sm:flex">
           <a
             target="none"
             href={social.github}
