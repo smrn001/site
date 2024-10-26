@@ -26,6 +26,13 @@ const social = {
 
 const projects = [
   {
+    name: "Alwin Portfolio",
+    description: "A portfolio website for Graphic Designer",
+    tech: ["Next JS", "Tailwind"],
+    code: "#",
+    preview: "",
+  },
+  {
     name: "Note website",
     description: "A website for CSIT notes",
     tech: ["HTML", "CSS", "G-Drive-Api"],
@@ -36,7 +43,7 @@ const projects = [
   {
     name: "Web-IDE",
     description: "A web IDE to edit and run code on the web ",
-    tech: [ "Tailwind", "JavaScript", "monaco"],
+    tech: ["Tailwind", "JavaScript", "monaco"],
     code: "https://github.com/smrn001/code",
     preview: "https://code.samirn.com.np/",
   },
