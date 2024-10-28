@@ -26,11 +26,25 @@ const social = {
 
 const projects = [
   {
+    name: "JYNX website",
+    description: "A website for JYNX digital marketing Agency",
+    tech: ["React", "Tailwind"],
+    code: "#",
+    preview: "https://jynx.netlify.app/",
+  },
+  {
     name: "Alwin Portfolio",
     description: "A portfolio website for Graphic Designer",
     tech: ["Next JS", "Tailwind"],
     code: "#",
-    preview: "",
+    preview: "https://alwinbhandari.vercel.app",
+  },
+  {
+    name: "NP Blog",
+    description: "A blog website for Nepali bloggers ",
+    tech: ["Next JS", "Tailwind", "shadcn/ui"],
+    code: "#",
+    preview: "https://blog-np.vercel.app",
   },
   {
     name: "Note website",
@@ -47,13 +61,7 @@ const projects = [
     code: "https://github.com/smrn001/code",
     preview: "https://code.samirn.com.np/",
   },
-  {
-    name: "JYNX website",
-    description: "A website for JYNX digital marketing Agency",
-    tech: ["React", "Tailwind"],
-    code: "#",
-    preview: "https://jynx.netlify.app/",
-  },
+ 
 
   {
     name: "Gallery ",
@@ -62,20 +70,20 @@ const projects = [
     code: "#",
     preview: "https://gallery.samirn.com.np/",
   },
-  {
-    name: "Quote Generator",
-    description: "A web app that generates random quotes",
-    tech: ["HTML", "CSS", "JavaScript"],
-    code: "https://github.com/smrn001/randomQuote",
-    preview: "https://smrn001.github.io/randomQuote/",
-  },
-  {
-    name: "School website",
-    description: "A school website of Dhulabari Secondary school",
-    tech: ["HTML", "CSS"],
-    code: "https://github.com/smrn001/dss",
-    preview: "https://smrn001.github.io/dss/",
-  },
+  // {
+  //   name: "Quote Generator",
+  //   description: "A web app that generates random quotes",
+  //   tech: ["HTML", "CSS", "JavaScript"],
+  //   code: "https://github.com/smrn001/randomQuote",
+  //   preview: "https://smrn001.github.io/randomQuote/",
+  // },
+  // {
+  //   name: "School website",
+  //   description: "A school website of Dhulabari Secondary school",
+  //   tech: ["HTML", "CSS"],
+  //   code: "https://github.com/smrn001/dss",
+  //   preview: "https://smrn001.github.io/dss/",
+  // },
 ];
 
 const creater = "Samir Niroula";
