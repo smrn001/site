@@ -26,18 +26,18 @@ const social = {
 
 const projects = [
   {
+    name: "Sajilo UI",
+    description: "A UI library for React and tailwind",
+    tech: ["Next JS", "Tailwind"],
+    code: "#",
+    preview: "https://sajilo-ui.vercel.app",
+  },
+  {
     name: "JYNX website",
     description: "A website for JYNX digital marketing Agency",
     tech: ["React", "Tailwind"],
     code: "#",
-    preview: "https://jynx.netlify.app/",
-  },
-  {
-    name: "Alwin Portfolio",
-    description: "A portfolio website for Graphic Designer",
-    tech: ["Next JS", "Tailwind"],
-    code: "#",
-    preview: "https://alwinbhandari.vercel.app",
+    preview: "https://jynx.netlify.app",
   },
   {
     name: "NP Blog",
@@ -59,16 +59,15 @@ const projects = [
     description: "A web IDE to edit and run code on the web ",
     tech: ["Tailwind", "JavaScript", "monaco"],
     code: "https://github.com/smrn001/code",
-    preview: "https://code.samirn.com.np/",
+    preview: "https://code.samirn.com.np",
   },
- 
 
   {
     name: "Gallery ",
     description: " Personal photographs colleection",
     tech: ["HTML", "CSS", "JavaScript"],
     code: "#",
-    preview: "https://gallery.samirn.com.np/",
+    preview: "https://gallery.samirn.com.np",
   },
   // {
   //   name: "Quote Generator",
