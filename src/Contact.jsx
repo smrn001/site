@@ -11,6 +11,9 @@ const Contact = () => {
       {/* Email Button */}
       <button
         type="button"
+        onClick={() => {
+          window.open("mailto:samir.niroula001@gmail.com"); /* Add your email here */
+        } /* Add your email here */}
         className="relative border-2 dark:border-primary border-lightprimary text-lightprimary dark:text-primary font-semibold py-3 px-6 rounded-sm text-lg overflow-hidden group transition-all duration-300 ease-in-out hover:text-darktext dark:hover:text-darktext  dark:text-primary-dark dark:border-primary-dark"
       >
         <span className="relative z-10">EMAIL</span>

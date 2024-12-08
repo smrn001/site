@@ -7,13 +7,13 @@ import Footer from "./Footer";
 
 export default function App() {
   return (
-    <div className="dark:bg-[#181818] bg-white ">
-      <Navbar></Navbar>
-      <About></About>
-      <Projects></Projects>
-      <Skills></Skills>
-      <Contact></Contact>
-      <Footer></Footer>
+    <div className="  max-w-7xl mx-auto">
+      <Navbar/>
+      <About/>
+      <Projects/>
+      <Skills/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
